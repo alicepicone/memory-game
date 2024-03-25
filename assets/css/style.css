@@ -1,0 +1,42 @@
+  body {
+    background-color: rgb(181, 244, 223);
+  }
+  
+  /* Stile del contenitore del gioco della memoria */
+  .memoryGame {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Stile per il titolo del gioco */
+  .title {
+    font-size: 65px;
+    margin-bottom: 20px;
+  }
+  
+  /* Stile delle carte del gioco */
+  .cards {
+    display: grid;
+    
+    align-items: center;
+    grid-template-columns: repeat(4, 200px); /* Modifica la dimensione della griglia come desiderato */
+    gap: 10px; /* Spazio tra le carte */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cards img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Stile del timer */
+  #timer, .reset {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
